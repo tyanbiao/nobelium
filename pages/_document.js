@@ -14,6 +14,10 @@ class MyDocument extends Document {
         className={BLOG.appearance === 'dark' ? 'dark' : undefined}
       >
         <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet" />
+          <script async defer data-website-id="0307ea7c-3974-4ae6-98f0-62606d35b143" src="https://analytics.tonaive.com/umami.js"></script>
           {BLOG.font && BLOG.font === 'serif'
             ? (
             <>
